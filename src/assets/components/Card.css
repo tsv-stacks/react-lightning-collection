@@ -1,0 +1,72 @@
+.card-contents {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card--stats {
+  font-family: "Anton", sans-serif;
+}
+
+.card--name {
+  font-family: "Bangers", cursive;
+}
+
+/* .card {
+  max-height: 60vh;
+} */
+
+.season-img {
+  width: 20vw;
+}
+
+.flex {
+  display: flex;
+}
+
+.card--cover {
+  width: 45vw;
+  max-width: 300px;
+}
+
+.card--details {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 769px) {
+  .card--details {
+    flex-direction: column-reverse;
+  }
+  .season-img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .card--stats h5 {
+    margin-bottom: 0;
+  }
+
+  .card--stats * {
+    text-align: center;
+    margin: 0.5rem 1rem;
+  }
+
+  .card--name {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-contents {
+    width: 100%;
+  }
+
+  .card--details {
+    flex-direction: column-reverse;
+  }
+
+  .season-img {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

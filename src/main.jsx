@@ -1,12 +1,23 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// import App from './App'
 import './index.css'
-import Navbar from './assets/components/Navbar'
+import Card from './assets/components/Card'
+import data from './assets/data'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    {/* <App /> */}
-    <Navbar />
-  </React.StrictMode>,
-)
+
+export default function App() {
+   const cards = data.map(card => {
+    return (
+      <Card
+        key={card.id}
+        card={card}
+        />
+    )
+  })
+
+  return (
+    <main className="card-contents" >
+        {cards}
+    </main>
+  )
+}
