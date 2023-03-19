@@ -15,8 +15,10 @@ export default function Card(props) {
                 </div>
                 <img className="season-img" src={props.card.img.season}/>
             </div>
-            <p>{props.card.bio} <a href={props.card.wiki} target="_blank" className="read-more" >Read more..</a> </p>
-            <p>Price: £{props.card.price}. Bought at: {props.card.bought}.</p>
+            <div className="card--bioprice" >
+                <p className="card--bio" >{props.card.bio} <a href={props.card.wiki} target="_blank" className="read-more" >Read more..</a> </p>
+                <p className="card--price" >Price: £{props.card.price}. Bought at: {props.card.bought}.</p>
+            </div>
         </div>
      </div>
     )
