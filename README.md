@@ -17,7 +17,7 @@ To run the app locally on your machine:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/react-vite-app.git
+git clone https://github.com/tsv-stacks/react-lightning-collection
 ```
 
 2. Install dependencies:
