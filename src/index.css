@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  /* border: 1px solid red; */
 }
 
 html,
@@ -47,5 +46,9 @@ body {
 
   .text {
     font-size: 1rem;
+  }
+  .navbar--title {
+    font-size: 1rem;
+    text-align: center;
   }
 }
