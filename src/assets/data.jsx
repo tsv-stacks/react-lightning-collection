@@ -24,7 +24,7 @@ export default [
     {
         id: 2 ,
         season: "SPD",
-        bio: "Bridge Carson is a S.P.D. Cadet who began his Ranger duties as the S.P.D. Green Ranger. He is a member of the B-Squad Rangers of the S.P.D. Rangers,",
+        bio: "Bridge Carson is a S.P.D. Cadet who began his Ranger duties as the S.P.D. Green Ranger. He is a member of the B-Squad Rangers of the S.P.D. Rangers.",
         name: 'Bridge Carsons',
         ranger: 'Green Ranger',
         img: {
@@ -46,7 +46,7 @@ export default [
             season: lgLogo
         },
         bought: 'ToyTown',
-        price: 7.5,
+        price: 7.50,
         wiki: 'https://powerrangers.fandom.com/wiki/Kai_Chen'
     },
     {

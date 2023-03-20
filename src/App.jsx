@@ -6,7 +6,7 @@ import './assets/components/Card.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <Navbar />
     <App />
-    {/* <Navbar /> */}
   </React.StrictMode>,
 )

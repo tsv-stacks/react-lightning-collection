@@ -6,7 +6,7 @@ export default function Card(props) {
         <div>
             <img className="card--cover" src={props.card.img.cover} />
         </div>
-        <div className="">
+        <div>
             <div className="card--details">
                 <div className="card--stats">
                     <h4>{props.card.ranger}</h4>
