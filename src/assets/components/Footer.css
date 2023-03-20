@@ -1,0 +1,41 @@
+footer {
+  font-family: "Bangers", cursive;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 0;
+  overflow: hidden;
+  height: 45px;
+  background-color: #f2f2f2;
+  font-size: 20px;
+}
+
+.me-tsvstacks:hover,
+.icon:hover {
+  color: grey;
+}
+
+.me-tsvstacks p {
+  margin: 0;
+}
+
+.me-tsvstacks {
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.icon {
+  color: black;
+  padding-right: 3px;
+}
+
+.fa-icons a {
+  text-decoration: none;
+}
+
+.me-tsvstacks {
+  color: black;
+  text-decoration: none;
+}
