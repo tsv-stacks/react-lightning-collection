@@ -5,6 +5,8 @@ import lgBlue from "./cover-img/lg-blue.jpg";
 import lgRed from "./cover-img/lg-red.jpg";
 import spdLogo from "./season-icons/PR_S.P.D._logo.png";
 import lgLogo from "./season-icons/PR_Lost_Galaxy_logo.png";
+import spdred from './cover-img/spd-red.jpeg'
+import spdshadow from './cover-img/spd-shadow.jpg'
 
 export default [
   {
@@ -63,4 +65,32 @@ export default [
     price: 9.99,
     wiki: "https://powerrangers.fandom.com/wiki/Kai_Chen",
   },
+  {
+    id: 6,
+    season: "SPD",
+    bio: `Anubis "Doggie" Cruger is a Sirian and the commander of Space Patrol Delta's Earth Base who later becomes the S.P.D. Shadow Ranger`,
+    name: 'Anubis "Doggie" Cruger',
+    ranger: "Shadow Ranger",
+    img: {
+      cover: spdshadow,
+      season: spdLogo,
+    },
+    bought: "Kapow! Toys",
+    price: 20.45,
+    wiki: "https://powerrangers.fandom.com/wiki/Jack_Landors",
+  },
+  {
+    id: 5,
+    season: "SPD",
+    bio: "Jack Landors is a former street thief alongside his best friend Z Delgado who were given a chance to join S.P.D. and reform themselves. After some reluctance, Jack decided to accept Cruger's offer and become the first S.P.D. Red Ranger",
+    name: "Jack Landors",
+    ranger: "Red Ranger",
+    img: {
+      cover: spdred,
+      season: spdLogo,
+    },
+    bought: "Star Action Figures",
+    price: 11.90,
+    wiki: "https://powerrangers.fandom.com/wiki/Jack_Landors",
+  }
 ];
