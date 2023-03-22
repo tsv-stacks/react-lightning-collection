@@ -7,6 +7,10 @@ import spdLogo from "./season-icons/PR_S.P.D._logo.png";
 import lgLogo from "./season-icons/PR_Lost_Galaxy_logo.png";
 import spdred from './cover-img/spd-red.jpeg'
 import spdshadow from './cover-img/spd-shadow.jpg'
+import blaze from './cover-img/blaze.jpg'
+import prBM from './season-icons/Power_Rangers_Beast_Morphers_logo.png'
+import dcRed from './cover-img/dinocharge-red.jpg'
+import prDC from './season-icons/Power_Rangers_Dino_Charge_logo.png'
 
 export default [
   {
@@ -92,5 +96,33 @@ export default [
     bought: "Star Action Figures",
     price: 11.90,
     wiki: "https://powerrangers.fandom.com/wiki/Jack_Landors",
-  }
+  },
+  {
+    id: 8,
+    season: "Dino Charge",
+    bio: "Tyler Navarro is on a mission to find his missing father, and holds Fury responsible for his disappearance.  He bonds with the Red Energem and becomes the Dino Charge Red Ranger.",
+    name: "Tyler Navarro",
+    ranger: "Red Ranger",
+    img: {
+      cover: dcRed,
+      season: prDC,
+    },
+    bought: "Kapow! Toys",
+    price: 20.45,
+    wiki: "https://powerrangers.fandom.com/wiki/Tyler_Navarro",
+  },
+  {
+    id: 7,
+    season: "Beast Morphers",
+    bio: "Blaze is a member of the Grid Battleforce and was meant to be the Red Ranger, but when Evox put a virus into the system, it makes an evil clone of him.",
+    name: "Blaze",
+    ranger: "Cybervillain",
+    img: {
+      cover: blaze,
+      season: prBM,
+    },
+    bought: "InDemand Toys",
+    price: 6.74,
+    wiki: "https://powerrangers.fandom.com/wiki/Blaze/Cybervillain",
+  },
 ];
